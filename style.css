@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+    background-color: rgb(6, 22, 36);
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    font-size: 48px;
+
+    margin: 20px 0;
+}
+
+h1 p:first-child {
+    letter-spacing: 5px;
+}
+
+h1 p:last-child {
+    letter-spacing: 20px;
+}
+
+.btn-block {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+
+    margin: 20px 0;
+}
+
+.btn-block button {
+    padding: 10px 50px;
+}
+
+.center-block {
+    margin: 100px auto;
+
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    gap: 20px;
+    justify-content: center;
+
+}
+
+.center-block .box {
+    height: 200px;
+    width: 200px;
+
+    background-color: blueviolet;
+
+    border-radius: 20px;
+}
